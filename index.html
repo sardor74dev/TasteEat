@@ -3,7 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0  user-scalable=no">
-    <link href="style.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/header.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
     <link rel="shortcut icon" href="images/IMAGE.svg" type="image/x-icon">
     <script src="script.js" defer></script>
     <script src="node_modules/@splidejs/splide/dist/js/splide.min.js"></script>
@@ -16,13 +19,13 @@
         <div class="header_container">
             <div class="header_main">
                 <div class="header_call_number_button">
-                    <span>Call - 123 456 789</span>
+                    <a href="#"><span>Call - 123 456 789</span></a>
                 </div>
                 <div class="header_logo">
-                    <img src="images/IMAGE.svg" alt="logo">
+                    <a href="#"><img src="images/IMAGE.svg" alt="logo"></a>
                 </div>
                 <div class="header_reservation">
-                    <span>Reservation</span>
+                    <a href="#"><span>Reservation</span></a>
                 </div>
             </div>
             <div class="header_line">
@@ -31,57 +34,57 @@
                 </button>
                 <ul class="main_menu">
                     <li>
-                        <span>Home</span>
+                        <a href="#"><span>Home</span></a>
                     </li>
                     <li>
-                        <span>About Us</span>
+                        <a href="#"><span>About Us</span></a>
                     </li>
                     <li>
-                        <span>Our Menu</span>
+                        <a href="#"><span>Our Menu</span></a>
                     </li>
                     <li>
-                        <span>Pages</span>
+                        <a href="#"><span>Pages</span></a>
                     </li>
                     <li>
-                        <span>Blog</span>
+                        <a href="#"><span>Blog</span></a>
                     </li>
                     <li>
-                        <span>Contact Us</span>
+                        <a href="#"><span>Contact Us</span></a>
                     </li>
                 </ul>
                 <ul class="burger_menu">
                     <li class="menu_item">
-                        <span class="menu_link">Home</span>
+                        <a href="#"><span class="menu_link">Home</span></a>
                     </li>
                     <li class="menu_item">
-                        <span class="menu_link">About Us</span>
+                        <a href="#"><span class="menu_link">About Us</span></a>
                     </li>
                     <li class="menu_item">
-                        <span class="menu_link">Our Menu</span>
+                        <a href="#"><span class="menu_link">Our Menu</span></a>
                     </li>
                     <li class="menu_item">
-                        <span class="menu_link">Pages</span>
+                        <a href="#"><span class="menu_link">Pages</span></a>
                     </li>
                     <li class="menu_item">
-                        <span class="menu_link">Blog</span>
+                        <a href="#"><span class="menu_link">Blog</span></a>
                     </li>
                     <li class="menu_item">
-                        <span class="menu_link">Contact Us</span>
+                        <a href="#"><span class="menu_link">Contact Us</span></a>
                     </li>
                 </ul>
                 <div class="header_social-media">
                     <ul>
                         <li>
-                            <img src="images/instagram-icon.svg" alt="instagram">
+                            <a href="#"><img src="images/instagram-icon.svg" alt="instagram"></a>
                         </li>
                         <li>
-                            <img src="images/facebook-icon.svg" alt="facebook">
+                            <a href="#"><img src="images/facebook-icon.svg" alt="facebook"></a>
                         </li>
                         <li>
-                            <img src="images/twitter-icon.svg" alt="twitter">
+                            <a href="#"><img src="images/twitter-icon.svg" alt="twitter"></a>
                         </li>
                         <li>
-                            <img src="images/pinterest-icon.svg" alt="pinterest">
+                            <a href="#"><img src="images/pinterest-icon.svg" alt="pinterest"></a>
                         </li>
                     </ul>
                 </div>
@@ -99,7 +102,7 @@
                         </span>
                     </div>
                     <div class="header_content_button">
-                        <span>View Menu</span>
+                        <a href="#menu"><span>View Menu</span></a>
                     </div>
                 </div>
                 <div class="header_content_picture">
@@ -189,7 +192,7 @@
         </section>
         <section class="menu">
             <div class="menu_container">
-                <div class="menu_special_dishes">
+                <div id="menu" class="menu_special_dishes">
                     <div class="menu_special_dishes_text">
                         <div class="menu_section_name">
                             menu
@@ -200,11 +203,11 @@
                         <div class="menu_text_desc">
                             Every time you perfectly dine with us, it should be happy for great inspired food in an environment designed with individual touches unique to the local area.
                         </div>
+                        <div class="menu_special_dishes_button">
+                            <a href="#"><span class="not_white_color">See all dishes</span></a>
+                        </div>
                     </div>
                     <img src="images/special-dishes.svg" alt="special dishes">
-                    <div class="menu_special_dishes_button">
-                        <span class="not_white_color">See all dishes</span>
-                    </div>
                 </div>
                 <div class="menu_dishes">
                     <div class="menu_starters">
@@ -603,7 +606,7 @@
                     </div>
                 </div>
                 <div class="popular_dishes_button">
-                    <span class="not_white_color">See all dishes</span>
+                    <a href="#"><span class="not_white_color">See all dishes</span></a>
                 </div>
             </div>
         </section>
@@ -692,21 +695,21 @@
                     <div class="reservation_form">
                         <div class="reservation_form_part_1">
                             <label>
-                                <input type="text" placeholder="Name" class="reservation_form_part_1_name">
+                                <input type="text" placeholder="Name" class="reservation_form_part_1_field">
                             </label>
                             <label>
-                                <input type="text" placeholder="Email" class="reservation_form_part_1_email">
+                                <input type="text" placeholder="Email" class="reservation_form_part_1_field">
                             </label>
                         </div>
                         <div class="reservation_form_part_2">
                             <label>
-                                <input type="text" placeholder="Persons" class="reservation_form_part_2_persons">
+                                <input type="text" placeholder="Persons" class="reservation_form_part_2_field">
                             </label>
                             <label>
-                                <input type="text" placeholder="Time" class="reservation_form_part_2_time">
+                                <input type="text" placeholder="Time" class="reservation_form_part_2_field">
                             </label>
                             <label>
-                                <input type="text" placeholder="Date" class="reservation_form_part_2_date">
+                                <input type="text" placeholder="Date" class="reservation_form_part_2_field">
                             </label>
                         </div>
                         <div class="reservation_form_part_3">
@@ -724,20 +727,20 @@
             <div class="footer_floors">
                 <div class="footer_floor">
                     <span class="res_name">#TheTastEat</span>
-                    <img class="footer_logo" src="images/IMAGE.svg" alt="logo">
+                    <a href="#"><img class="footer_logo" src="images/IMAGE.svg" alt="logo"></a>
                     <div class="header_social-media">
                         <ul>
                             <li>
-                                <img src="images/instagram-icon.svg" alt="instagram">
+                                <a href="#"><img src="images/instagram-icon.svg" alt="instagram"></a>
                             </li>
                             <li>
-                                <img src="images/facebook-icon.svg" alt="facebook">
+                                <a href="#"><img src="images/facebook-icon.svg" alt="facebook"></a>
                             </li>
                             <li>
-                                <img src="images/twitter-icon.svg" alt="twitter">
+                                <a href="#"><img src="images/twitter-icon.svg" alt="twitter"></a>
                             </li>
                             <li>
-                                <img src="images/pinterest-icon.svg" alt="pinterest">
+                                <a href="#"><img src="images/pinterest-icon.svg" alt="pinterest"></a>
                             </li>
                         </ul>
                     </div>

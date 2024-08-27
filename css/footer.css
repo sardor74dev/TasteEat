@@ -1,0 +1,101 @@
+.footer {
+    background-color: #292E36;
+    padding: 100px 0 25px;
+}
+.footer_floors {
+    display: flex;
+    flex-direction: column;
+}
+.footer_floor {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer_floor img {
+    /* width: 100%; */
+    height: auto;
+    min-width: 200px;
+}
+.column_client_hr {
+    width: 100%;
+    height: auto;
+}
+.res_name {
+    margin: 138px 48px 16px 0;
+}
+.footer_floor_item_text {
+    padding: 60px 0 0 0;
+}
+.footer_floor_item_info {
+    display: flex;
+    justify-content: center;
+}
+.footer_floor_item_text_desc span {
+    font-size: 1.25rem; /*20px*/
+}
+.footer_floor_item_text_desc {
+    font-size: 1.25rem;
+    color: #E1B168;
+}
+.working_days_and_hours {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin: 34px 0 10px;
+}
+.working_days {
+    display: flex;
+    flex-direction: column;
+    text-align: end;
+}
+.wh {
+    text-align: end;
+}
+.email_input {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 25px 0 22px;
+}
+.email {
+    padding: 20px 300px 20px 24px;
+    border: 1px solid #858585;
+    width: 456px;
+    color: #FFFFFF;
+}
+.subscribe_button {
+    background-color: #FFFFFF;
+    border: 1px solid #858585;
+}
+.subscribe_button span {
+    color: #000000;
+}
+.footer_rectangle {
+    border: 1px solid #575B62;
+}
+.footer_copyright {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 25px 0 25px;
+}
+.footer_copyright_list {
+    gap: 10px;
+}
+.footer_copyright_list li {
+    color: #FFFFFF;
+    font-family: Josefin Sans, serif;
+    font-size: 1.375rem; /*22px*/
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+    letter-spacing: 0.2px;
+}
+.footer_copyright_list li span {
+    color: #E1B168;
+}
+.splide__slide {
+    max-width: 544px;
+}

@@ -26,7 +26,7 @@ menuItems.forEach(
 )
 let splide = new Splide( '.splide', {
     type   : 'loop',
-    perPage: 2,
+    perPage: 1,
     perMove: 1,
 });
 
