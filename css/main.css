@@ -232,7 +232,7 @@
 }
 .testimonial_carousel_item {
     background-color: #343942;
-    padding: 0 40px 5px;
+    padding: 0 3rem 5px;
 }
 .testimonial_navigation_frame {
     display: flex;
@@ -252,7 +252,7 @@
 .client_data {
     display: flex;
     flex-direction: row;
-    gap: 30px;
+    gap: 1rem;
 }
 .client_text {
     display: flex;
@@ -285,7 +285,7 @@
     font-weight: 400;
     line-height: 156.25%;
     letter-spacing: 0.25px;
-    padding: 32px 0 5px;
+    padding-bottom: 10px;
     max-width: 454px;
 }
 .testimonial_column {
