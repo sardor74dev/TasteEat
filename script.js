@@ -24,19 +24,21 @@ menuItems.forEach(
         menuItem.addEventListener('click', toggleMenu)
     }
 )
-let splide = new Splide( '.splide', {
-    type   : 'loop',
-    perPage: 1,
-    perMove: 1,
-    gap: '1 rem',
-    breakpoints: {
-        1024: {
-            perPage: 2,
-        },
-        768: {
-            perPage: 1
-        }
-    }
-});
 
-splide.mount();
+document.addEventListener('DOMContentLoaded', function () {
+    let splide = new Splide('.splide', {
+        type: 'loop',
+        perPage: 1,
+        perMove: 1,
+        gap: '1rem',
+        breakpoints: {
+            1024: {
+                perPage: 2,
+            },
+            768: {
+                perPage: 1,
+            },
+        },
+    });
+    splide.mount();
+});
